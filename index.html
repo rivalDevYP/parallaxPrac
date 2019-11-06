@@ -17,14 +17,4 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-
-  <script>
-    $(window).scroll(()=>{
-      var wscroll = $(this).scrollTop();
-      console.log(wscroll);
-      $('#fixedBackground').css({
-          'transform' : 'translate(0px, '+ wscroll/2 +'%)'
-      });
-    });
-  </script>
 </body>
